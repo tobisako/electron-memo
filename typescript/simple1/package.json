@@ -1,0 +1,15 @@
+{
+  "name": "simple1",
+  "version": "1.0.0",
+  "description": "参考 https://www.matatabi-ux.com/entry/2019/12/19/100000",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.0"
+  }
+}
